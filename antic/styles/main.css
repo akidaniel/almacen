@@ -34,7 +34,7 @@ padding:0;
 background:url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/fondo.jpg) left top repeat;
 background-size: contain, auto;}
  
-.wrapper {overflow-x:hidden; position: relative; padding: 0 3px; /*background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
+.wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
 }
 
 .CENTER {
@@ -153,11 +153,9 @@ display: flex;
 align-items: baseline;
 margin: 0 10px;
 }
-
-.lista {
-justify-content: space-evenly;
-}
-
+.ancha {width:140%;}
+.ancha span {padding-left: 3.3rem;
+    text-indent: -0.5rem;}
 .principal {
 font-family: 'Lucida Handwriting';
 font-size: 20px;
@@ -170,15 +168,20 @@ transform:scale(0.7,1);
 -ms-transform:scale(0.7,1);
 transform-origin: left;
 } 
-
+.sabor {padding: 0px 0px 0px 30px; font-size:18px;}
 .preciolista {transform-origin: right;
 }
 .segunda {font-size: 16px;
 }
 .lineacontenido {flex: 0.5 1 95%;}
-.tab {border-bottom: 2px dotted #ccc;  flex:1; transform: scale(1,1); line-height: 20%;}
-
-
+.tab {border-bottom: 2px dotted #ccc;  flex:1; line-height: 20%; transform:scale(1.1,1); 
+-webkit-transform:scale(1.1,1);
+-moz-transform:scale(1.1,1);
+-o-transform:scale(1.1,1);
+-ms-transform:scale(1.1,1);
+transform-origin: center;}
+.cenefa {border-bottom: 2px solid #512420; flex:1; transform-origin: center;}
+.center {transform-origin: center;}
 .languecontainer {position:absolute;
 top:0;
 display: flex;
@@ -187,8 +190,8 @@ z-index: 9500;
 margin:2rem 0 1rem 0;
 width:100%;}
 
-.menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem {font-family:'Richela Kids Regular'; font-weight:normal; text-transform:uppercase; font-size: 36px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
+.menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; margin: 0 auto;  }
+.menuitem {font-family:'Richela Kids Regular'; font-weight:normal; text-transform:uppercase; font-size: 36px; color: #F2EAE6; text-align: center; padding: 8px 0 10px 0; margin: 0 auto; background:#512420; 
 }
 
 	
@@ -226,7 +229,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 .pricex3 {left: 30%; margin: 0 auto; position:unset;}
 .address {font-family: 'Gothic A1', sans-serif;
  font-size: 15px; text-align: center; margin: 0 auto; line-height: 1.25rem;}
-.lastline {border:none; margin-bottom: 0.5rem;}
+.lastline {border:none; margin-bottom: 0.5rem; background:none;}
 
 .dishnumber {position: relative;
 font-family: 'Gothic A1', sans-serif;
