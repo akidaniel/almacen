@@ -20,7 +20,13 @@ text-align:left;
 	outline: 0;
 }
 
-
+@font-face {
+font-family: 'Richela Kids Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).woff') format('woff');
+}
+	
 .pagina {box-sizing:border-box;
 padding:0;
 background:url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/fondo.jpg) left top repeat;
@@ -164,9 +170,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius:10px; margin: 0 auto; -moz-box-shadow: #223139 0 0 5px; -webkit-box-shadow: #223139 0 0 5px; box-shadow: #223139 0 0 5px; }
-.menuitem {
-    font-family: 'Richela Kids Regular'; font-style: normal; font-weight: normal; src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).woff') format('woff');
- font-size: 36px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
+.menuitem {font-family: 'Richela Kids Regular'; font-weight: normal; font-size: 36px; color: #803a30; text-align: center; padding: 8px 0 10px 0; border-bottom: 2px solid #afafaf; margin: 0 auto; 
 }
 
 	
