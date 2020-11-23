@@ -157,7 +157,7 @@ margin: 0 5px;
 font-family: 'Lucida Handwriting';
 font-size: 20px;
 padding: 5px 0px 2px 0px;
-color:#512420;
+color:#513734;
 transform:scale(0.7,1); 
 -webkit-transform:scale(0.7,1);
 -moz-transform:scale(0.7,1);
@@ -171,7 +171,7 @@ transform-origin: left;
 .segunda {font-size: 16px;
 }
 .lineacontenido {flex: 0.5 1 95%;}
-.tab {border-bottom: 2px dotted #512420; flex:1; line-height: 20%; transform:scale(1.1,1); 
+.tab {border-bottom: 2px dotted #513734; flex:1; line-height: 20%; transform:scale(1.1,1); 
 -webkit-transform:scale(1.1,1);
 -moz-transform:scale(1.1,1);
 -o-transform:scale(1.1,1);
@@ -184,8 +184,8 @@ transform-origin: center;}
 -ms-transform:scale(1.1,1);
 transform-origin: center;}
 
-.cenefa {border-bottom: 2px solid #512420; flex:1;}
-.center {transform-origin: center; font-size:24px; color:#512420;
+.cenefa {border-bottom: 2px solid #513734; flex:1;}
+.center {transform-origin: center; font-size:24px; color:#513734;
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
@@ -199,7 +199,7 @@ margin:2rem 0 1rem 0;
 width:100%;}
 .menuitemcontainer, .cartadevinos, .cartadepostres {max-width: 580px; margin: 0 auto;  }
 
-.menuitem {font-family:'Richela Kids Regular'; font-weight:normal; text-transform:uppercase; font-size: 30px; color: #F3E2DD; text-align: center; padding: 8px 0 10px 0; margin: 0 auto; background:#512420; 
+.menuitem {font-family:'Richela Kids Regular'; font-weight:normal; text-transform:uppercase; font-size: 30px; color: #F3E2DD; text-align: center; padding: 8px 0 10px 0; margin: 0 auto; background:#513734; 
 }
 
 	
@@ -248,7 +248,7 @@ font-size: 16px;
 -webkit-border-radius: 20px;
 border-radius: 20px;
 padding: 2px 6px;
-background-color: #512420;
+background-color: #513734;
 font-weight: bold;
 color: #FFFFFF;
 width: fit-content;
