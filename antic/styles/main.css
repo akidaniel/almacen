@@ -214,7 +214,7 @@ width:100%;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2rem!important;}
 
 
-.topimage {background-position: center center; margin: -5rem auto 0; font-size: 1.5rem; font-family: 'Gothic A1', sans-serif; font-weight: bold; margin-bottom: 3rem;}
+.topimage {background-position: center center; margin: -5rem auto 0; font-size: 1.5rem; font-family: 'Gothic A1', sans-serif; font-weight: bold; }
 .topimage img {width: 200px;
     position: relative;
     float: left;
