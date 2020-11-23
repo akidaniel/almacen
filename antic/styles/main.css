@@ -32,8 +32,8 @@ src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).
 
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/fondo.jpg) left top repeat;
-background-size: contain, auto; margin:0;}
+background:url(https://akidaniel.github.io/almacen/antic/imagenes/.jpg) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/.jpg) left top repeat; background:#F0E0D7;
+margin:0;}
  
 .wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
 }
@@ -42,7 +42,7 @@ background-size: contain, auto; margin:0;}
 
 /*TEXTOS*/
 
-.SUBTITULO{font-family: 'Yanone Kaffeesatz', sans-serif;
+.SUBTITULO{font-family: 'Lucida Handwriting', sans-serif;
 font-size:3rem;
 text-align:center;
 line-height: 2.5rem;
@@ -216,7 +216,7 @@ width:100%;}
 .dish-2 {text-align: center; margin: 1.5rem auto 0; width:49%; z-index:10;}
 .dish-3 {text-align: center; margin: 1.5rem auto 0; width:32%; z-index:10;}
 .dish-2 img, .dish-3 img {max-height: 100%; max-width: 100%;}
-.destacado {font-family: 'Yanone Kaffeesatz', sans-serif;
+.destacado {font-family: 'Lucida Handwriting', sans-serif;
 text-align:left;
 font-size:17px; font-weight: normal;}
 .descr {font-family: 'Gothic A1', sans-serif; font-weight: normal;
@@ -224,11 +224,11 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .menuitem.plato {font-size:26px; border-bottom: none; line-height: 100%; padding:0; margin: 0 auto -0.40rem;}
 .price {position: relative;
- font-family: 'Yanone Kaffeesatz', sans-serif;
+ font-family: 'Lucida Handwriting', sans-serif;
  font-size: 20px; 
  line-height:150%;
  right:10%;
-   }
+}
    
 	
 .dishphoto {text-align:center!important}
