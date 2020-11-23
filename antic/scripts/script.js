@@ -46,18 +46,6 @@ $('.FR').on('click', function() {
   display('LFR', $(this));
 });
 
-$('.DE').on('click', function() {
-  display('LDE', $(this));
-});
-
-
-$('.NE').on('click', function() {
-  display('LNE', $(this));
-});
-
-$('.RU').on('click', function() {
-  display('LRU', $(this));
-});
 
 });
 //MENUS

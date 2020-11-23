@@ -33,7 +33,7 @@ src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).
 .pagina {box-sizing:border-box;
 padding:0;
 background:url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/fondo.jpg) left top repeat;
-background-size: contain, auto;}
+background-size: contain, auto; margin:0;}
  
 .wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
 }
@@ -150,9 +150,9 @@ align-items: baseline;
 margin: 0 5px;
 }
 .ancha, .anchasimple {width:140%; margin: 0 5px;}
-.ancha span {padding-left: 3.3rem;
-    text-indent: -0.5rem;}
-	.flex70 {flex:70%;}
+.ancha span {padding-left: 2.6rem;
+    text-indent: -0.55rem;}
+.flex70 {flex:70%;}
 .principal {
 font-family: 'Lucida Handwriting';
 font-size: 20px;
@@ -166,7 +166,7 @@ transform:scale(0.7,1);
 transform-origin: left;
 } 
 .sabor {padding: 0px 0px 0px 30px; font-size:18px;}
-.preciolista {transform-origin: right;
+.preciolista {transform-origin: right; 
 }
 .segunda {font-size: 16px;
 }

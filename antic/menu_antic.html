@@ -23,103 +23,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" crossorigin="anonymous">
 
 <link type="text/css" rel="stylesheet" href="styles/main.css"/>
+<script type="text/javascript" src="scripts/script.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@350;600&display=swap" rel="stylesheet">
 <title>Menú l'Antic</title>
-<script  type="text/javascript">
-var icons = [
-			"https://lespetxines.neocities.org/imagenes/favicons/apple-icon-180x180.png",
-                "https://lespetxines.neocities.org/imagenes/favicons/favicon-32x32.png",
-                "https://lespetxines.neocities.org/imagenes/favicons/favicon.ico",
-            ];
 
-            var idx = localStorage["favicon"];
-            if (idx === undefined) {
-                idx = 0;
-            } else {
-                idx = parseInt(idx);
-            }
-
-            localStorage["favicon"] = (idx + 1) % icons.length;
-
-            var link = document.createElement('link');
-            link.type = 'image/x-icon';
-            link.rel = 'icon';
-            link.href = icons[idx];
-            document.getElementsByTagName('head')[0].appendChild(link);
-</script>
-<script  type="text/javascript">
-$(document).ready(function() {
-var display = function(block_name) {
-  $('.SUBTITULO, .menuitem, .descr, .listado, .destacado, .principal').css('display', 'none');
-  $('#' + block_name).css('display', 'block');
-  $('.' + block_name).css('display', 'block');
-}
-
-$('.UK').on('click', function() {
-  display('LUK', $(this));
-});
-
-$('.ES').on('click', function() {
-  display('LES', $(this));
-});
-
-$('.CT').on('click', function() {
-  display('CAT', $(this));
-});
-
-
-$('.FR').on('click', function() {
-  display('LFR', $(this));
-});
-
-
-});
-</script>
-<script  type="text/javascript">
-$(document).ready(function() {
-
-var display = function(block_name) {
-  $('.menudecomidas, .menudevinos').css('display', 'none');
-  $('#' + block_name).css('display', 'block');
-  $('.' + block_name).css('display', 'block');
-}
-
-$('.platos').on('click', function() {
-  display('menudecomidas', $(this));
-});
-
-$('.vinos').on('click', function() {
-  display('menudevinos', $(this));
-});
-
-
-
-});
-
-
-$(document).ready(function() {
-$('.dish-2, .dish-3').click(function() {
-  $(this).toggleClass('expandish');
-    $(this).siblings(".show").toggle();
-	    $('.show').css('z-index', '11')
-
-
-});
-
-/*$('img').bind('contextmenu', function(e) {
-    return false;
-}); */
-
-$('.dish-2, .dish-3').mouseleave(function() {
-  $(this).removeClass('expandish');
-	    $('.show').css('z-index', '0');
-			    $('.show').css('display', 'none');
-
-});
-
-
-});
-</script>
 </head >
 <body class="pagina" style="overflow:visible" yahoo="fix">
 
@@ -355,7 +262,7 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <span class="principal lastline CAT">De llet</span>
 <span class="principal lastline LES">De leche</span>
 <span class="principal lastline LFR">De lait</span>
-<span class="principal lastline LUK">Of milk</span><span class="tab"></span><span class="principal lastline preciolista CAT LES LFR LUK">2,10&nbsp;€</span></div>
+<span class="principal lastline LUK">Of milk</span><span class="tab"></span><span class="principal lastline preciolista CAT LES LFR LUK">2,10 €</span></div>
 
 <div class="menuitem lastline LES CAT LFR LUK"></div>
 
@@ -967,20 +874,6 @@ $('a.back-to-top, a.simple-back-to-top').click(function() {
 </script>
 
 
-<script>
-if (jQuery(window).width() < 900) {
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-  var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos >currentScrollPos) {
-    document.getElementById("cambiocontenido").style.bottom = "0rem";
-  } else {
-    document.getElementById("cambiocontenido").style.bottom = "-3.5rem";
-  }
-  prevScrollpos = currentScrollPos;
-}
-}
-</script>
 
 </div>
 
