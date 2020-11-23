@@ -32,7 +32,7 @@ src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).
 
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/almacen/antic/imagenes/pattern.jpg) left top repeat; background:; background:rgba(255, 255, 255, 0.5);
+background:url(https://akidaniel.github.io/almacen/antic/imagenes/background.jpg) left top repeat;
 margin:0;}
  
 .wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
