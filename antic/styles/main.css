@@ -127,7 +127,7 @@ margin: 0 0.55rem;
 	z-index: 1500;
 	right: 0.5rem;
 	bottom: 0rem;
-	background: url(https://akidaniel.github.io/menupetxines/imagenes/bt_top.png) no-repeat center 43%;
+	background: url(https://akidaniel.github.io/almacen/antic/imagenes/arrow.png) no-repeat center 43%;
 	background-size: contain;
 }
 
@@ -277,7 +277,7 @@ position:relative; z-index:10;
     z-index: 990; 
 	direction: rtl;
     justify-content: flex-start;
-	right: 5rem;
+	right: 5.25rem;
     }
 	
 
@@ -306,15 +306,15 @@ z-index:222;}
 .CT {background-image: url(https://akidaniel.github.io/menupetxines/imagenes/catalan.png);}
 
 .platos, .vinos, .postres {display: block;
-	width: 4.5rem;
-	height: 4.5rem;
+	width: 4.75rem;
+	height: 4.75rem;
 	text-indent: -9999px;
 	/**position: fixed;**/
 	z-index: 999;
 	cursor: pointer;
 }
-.platos {background: url(https://akidaniel.github.io/menupetxines/imagenes/menu_icon.png) no-repeat center 43%; background-size: contain;}
-.vinos {background: url(https://akidaniel.github.io/menupetxines/imagenes/wine_icon.png) no-repeat center 43%; background-size: contain;}
+.platos {background: url(https://akidaniel.github.io/almacen/antic/imagenes/drink.png) no-repeat center 43%; background-size: contain;}
+.vinos {background: url(https://akidaniel.github.io/almacen/antic/imagenes/eat.png) no-repeat center 43%; background-size: contain;}
 .postres {background: url(https://akidaniel.github.io/menupetxines/imagenes/dess_icon.png) no-repeat center 43%; background-size: contain;}
 
 .dish-2 div {text-align: right;}
@@ -382,10 +382,14 @@ a.FINDUS {text-decoration: none;}
 	
 /**.price {left:30%}
 .expandish .price {display: unset;}
-.pricex3 {left:unset; line-height: 140%;}**/
+.pricex3 {left:unset; line-height: 140%;}
+**/
 
 .dish-3 .dishnumber {left:0;}
-
+.cambiocontenido {
+    justify-content: flex-end;
+	right:unset;
+    }
 .expandish .dishnumber {color: #ffffff; background-color: #000000;}
 
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
@@ -394,10 +398,7 @@ a.FINDUS {text-decoration: none;}
     box-shadow: none;}
 .menuitemcontainer .pricex3 {line-height:unset;}
 
-.cambiocontenido {
-    justify-content: flex-end;
-	right:unset;
-    }
+
 .FINDUS {top:0;}
 
 .pagina {background-size: 300%, auto;;}
@@ -425,13 +426,3 @@ margin: 0 0 16px;
 
 }
 
-
-/**
-
-@media only screen and (max-width: 640px)  {
-body[yahoo] .ANCHO {width:440px!important; padding:0px;!important; }
-body[yahoo] .CUADRO {width:220px!important; padding:0px;!important; }
-}
-@media only screen and (max-width: 540px) {
-body[yahoo] .ANCHO {width:300px!important; padding:0;}
-body[yahoo] .CUADRO {width:140px!important; padding:0px;}
