@@ -157,7 +157,7 @@ margin: 0 5px;
 font-family: 'Lucida Handwriting';
 font-size: 20px;
 padding: 5px 0px 2px 0px;
-color:#454545;
+color:#512420;
 transform:scale(0.7,1); 
 -webkit-transform:scale(0.7,1);
 -moz-transform:scale(0.7,1);
@@ -171,7 +171,7 @@ transform-origin: left;
 .segunda {font-size: 16px;
 }
 .lineacontenido {flex: 0.5 1 95%;}
-.tab {border-bottom: 2px dotted #ccc;  flex:1; line-height: 20%; transform:scale(1.1,1); 
+.tab {border-bottom: 2px dotted #512420; flex:1; line-height: 20%; transform:scale(1.1,1); 
 -webkit-transform:scale(1.1,1);
 -moz-transform:scale(1.1,1);
 -o-transform:scale(1.1,1);
@@ -245,7 +245,7 @@ font-size: 16px;
 -webkit-border-radius: 20px;
 border-radius: 20px;
 padding: 2px 6px;
-background-color: #864138;
+background-color: #512420;
 font-weight: bold;
 color: #FFFFFF;
 width: fit-content;
@@ -381,6 +381,7 @@ a.FINDUS {text-decoration: none;}
 /**.price {left:30%}
 .expandish .price {display: unset;}
 .pricex3 {left:unset; line-height: 140%;}
+.pagina {background-size: 300%, auto;}
 **/
 
 .dish-3 .dishnumber {left:0;}
@@ -397,7 +398,6 @@ a.FINDUS {text-decoration: none;}
 
 .FINDUS {top:0;}
 
-.pagina {background-size: 300%, auto;;}
 .menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -5rem auto 0;}
 .autor {color:#000000;}
 .autor a {color:#000000;}
