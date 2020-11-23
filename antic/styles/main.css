@@ -28,7 +28,8 @@ font-style: normal;
 font-weight: normal;
 src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).woff') format('woff');
 }
-	
+@font-face {font-family: "Lucida Handwriting"; src: url("//db.onlinewebfonts.com/t/31cfd9d14874e1be831c18bf5371ad7c.eot"); src: url("//db.onlinewebfonts.com/t/31cfd9d14874e1be831c18bf5371ad7c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/31cfd9d14874e1be831c18bf5371ad7c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/31cfd9d14874e1be831c18bf5371ad7c.woff") format("woff"), url("//db.onlinewebfonts.com/t/31cfd9d14874e1be831c18bf5371ad7c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/31cfd9d14874e1be831c18bf5371ad7c.svg#Lucida Handwriting") format("svg"); }
+
 .pagina {box-sizing:border-box;
 padding:0;
 background:url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/fondo.jpg) left top repeat;
@@ -201,7 +202,6 @@ width:100%;}
 }
 
 	
-/**.cartadevinos, .cartadepostres**/ {display:none;}
 
 
 .menudevinos, .menudepostres {display:none}

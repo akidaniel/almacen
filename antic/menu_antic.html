@@ -15,7 +15,7 @@
   
 <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<link href="//db.onlinewebfonts.com/c/31cfd9d14874e1be831c18bf5371ad7c?family=Lucida+Handwriting" rel="stylesheet" type="text/css"/>
+<!--<link href="//db.onlinewebfonts.com/c/31cfd9d14874e1be831c18bf5371ad7c?family=Lucida+Handwriting" rel="stylesheet" type="text/css"/>-->
 
 <LINK REL="SHORTCUT ICON" HREF="https://lespetxines.neocities.org/imagenes/favicons/favicon.ico">
 <link rel="icon" href="https://lespetxines.neocities.org/imagenes/favicons/favicon.ico" type="image/x-icon" />
@@ -72,18 +72,6 @@ $('.FR').on('click', function() {
   display('LFR', $(this));
 });
 
-$('.DE').on('click', function() {
-  display('LDE', $(this));
-});
-
-
-$('.NE').on('click', function() {
-  display('LNE', $(this));
-});
-
-$('.RU').on('click', function() {
-  display('LRU', $(this));
-});
 
 });
 </script>
@@ -91,7 +79,7 @@ $('.RU').on('click', function() {
 $(document).ready(function() {
 
 var display = function(block_name) {
-  $('.menudecomidas, .menudevinos, .menudepostres').css('display', 'none');
+  $('.menudecomidas, .menudevinos').css('display', 'none');
   $('#' + block_name).css('display', 'block');
   $('.' + block_name).css('display', 'block');
 }
@@ -104,9 +92,7 @@ $('.vinos').on('click', function() {
   display('menudevinos', $(this));
 });
 
-$('.postres').on('click', function() {
-  display('menudepostres', $(this));
-});
+
 
 });
 
@@ -158,8 +144,6 @@ $('.dish-2, .dish-3').mouseleave(function() {
 <div id="cambiocontenido" class="cambiocontenido">
 <input type="checkbox" id="contenido" class="menu_contenido">
 
-<a class="postres" href="#">
-</a>
 <a class="vinos" href="#">
 </a>
 <a class="platos" href="#">
