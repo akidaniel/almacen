@@ -38,12 +38,7 @@ background-size: contain, auto;}
 .wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
 }
 
-.CENTER {
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-  justify-content: center;
-  text-align: center;
-}
+
 
 /*TEXTOS*/
 
@@ -152,9 +147,9 @@ filter:hue-rotate(0deg) saturate(1) brightness(2.5);
 .flexbox {
 display: flex;
 align-items: baseline;
-margin: 0 10px;
+margin: 0 5px;
 }
-.ancha {width:140%;}
+.ancha, .anchasimple {width:140%; margin: 0 5px;}
 .ancha span {padding-left: 3.3rem;
     text-indent: -0.5rem;}
 .principal {
@@ -187,8 +182,13 @@ transform-origin: center;}
 -o-transform:scale(1.1,1);
 -ms-transform:scale(1.1,1);
 transform-origin: center;}
-.cenefa {border-bottom: 2px solid #512420; flex:1; transform-origin: center;}
-.center {transform-origin: center;}
+
+.cenefa {border-bottom: 2px solid #512420; flex:1;}
+.center {transform-origin: center; font-size:24px; color:#512420;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;}
 .languecontainer {position:absolute;
 top:0;
 display: flex;
@@ -249,7 +249,7 @@ font-weight: bold;
 color: #FFFFFF;
 width: fit-content;
 float: left;
-margin: 6px 30px 0px 10px;
+margin: 6px 30px 0px 0px;
 }
 
 .numeroplato {
