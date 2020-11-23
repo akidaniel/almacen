@@ -152,6 +152,7 @@ margin: 0 5px;
 .ancha, .anchasimple {width:140%; margin: 0 5px;}
 .ancha span {padding-left: 3.3rem;
     text-indent: -0.5rem;}
+	.flex70 {flex:70%;}
 .principal {
 font-family: 'Lucida Handwriting';
 font-size: 20px;
