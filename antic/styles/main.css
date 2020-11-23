@@ -32,7 +32,7 @@ src: local('Richela Kids Regular'), url('Richela Kids Font by Keithzo (7NTypes).
 
 .pagina {box-sizing:border-box;
 padding:0;
-background:url(https://akidaniel.github.io/almacen/antic/imagenes/.jpg) left bottom no-repeat, url(https://akidaniel.github.io/menupetxines/imagenes/.jpg) left top repeat; background:#F0E0D7;
+background:url(https://akidaniel.github.io/almacen/antic/imagenes/pattern.jpg) left top repeat; background:; background:rgba(255, 255, 255, 0.5);
 margin:0;}
  
 .wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
@@ -209,7 +209,7 @@ width:100%;}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2rem!important;}
 
 
-.topimage {background-position: center center; -moz-border-top-left-radius: 10px; -webkit-border-top-left-radius: 10px; border-top-left-radius:10px; -moz-border-top-right-radius: 10px; -webkit-border-top-right-radius: 10px; border-top-right-radius:10px; border-bottom: none; padding: 0.5rem 0 0; margin-bottom: 1rem;}
+.topimage {background-position: center center; padding: 0.5rem 0 0; margin-bottom: 1rem;}
 .topimage img {float:right;}
 
 
@@ -341,13 +341,11 @@ padding-bottom: 1rem;
 .expandish .dishphoto {margin: 15px 0 -10px; text-align: center;}
 
 
-.TITLE {-moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;}
+
 
 .-L {text-align:left;}
 .-C {text-align:center!important; }
-.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: 1rem auto 0;}
+.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -5rem auto 0;}
 .wine {text-align: center!important;}
 .wine img {height: 230px; padding:0}
 .expandish .wine img {width:unset; height: unset; }
@@ -366,7 +364,7 @@ a.FINDUS {text-decoration: none;}
 .autor a {text-decoration:none; color:#FFFFFF;}
 @media only screen and (max-width: 900px) {
 
-.UK, .ES, .FR, .CT, .DE, .NE, .RU {margin: 0 0.5rem; width: 3rem; height:5rem;}
+.UK, .ES, .FR, .CT {margin: 0 0.5rem; width: 3rem; height:5rem;}
 .BOTONERA {top: 0.5rem;}
 .expandish {min-width: 98%;}
 /**FONDO DE COLOR**/
@@ -393,16 +391,14 @@ a.FINDUS {text-decoration: none;}
 .expandish .dishnumber {color: #ffffff; background-color: #000000;}
 
 .bebidas  {marging: 0rem!important; margin-top:0rem;}
-.TITLE {-moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;}
+
 .menuitemcontainer .pricex3 {line-height:unset;}
 
 
 .FINDUS {top:0;}
 
 .pagina {background-size: 300%, auto;;}
-.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -1rem auto 0;}
+.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -5rem auto 0;}
 .autor {color:#000000;}
 .autor a {color:#000000;}
 }
