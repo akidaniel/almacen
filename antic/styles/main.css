@@ -203,17 +203,22 @@ width:100%;}
 }
 
 	
-
+.TITLE {top: 6rem;
+    position: relative;
+    font-size: 24px;
+    font-family: 'Richela Kids Regular';
+    background: #513734;
+    text-align: center;}
 
 .menudevinos, .menudepostres {display:none}
 .bebidas, .desserts  {marging: 0rem!important; margin-top:-2rem!important;}
 
 
-.topimage {background-position: center center; padding: 0.5rem 0 0; margin-bottom: 1rem;}
-.topimage img {width: 150px;
+.topimage {background-position: center center; margin: -5rem auto 0; font-size: 1.5rem; font-family: 'Gothic A1', sans-serif; font-weight: bold; margin-bottom: 3rem;}
+.topimage img {width: 200px;
     position: relative;
-    left: -20%;
-    bottom: -3rem;}
+    float: left;
+    bottom: -3.5rem; }
 
 
 .dish-2 {text-align: center; margin: 1.5rem auto 0; width:49%; z-index:10;}
@@ -348,7 +353,7 @@ padding-bottom: 1rem;
 
 .-L {text-align:left;}
 .-C {text-align:center!important; }
-.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -5rem auto 0;}
+/**.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -5rem auto 0;}**/
 .wine {text-align: center!important;}
 .wine img {height: 230px; padding:0}
 .expandish .wine img {width:unset; height: unset; }
@@ -401,7 +406,6 @@ a.FINDUS {text-decoration: none;}
 
 .FINDUS {top:0;}
 
-.menuitemcontainer.TITLE, .cartadevinos.TITLE, .cartadepostres.TITLE {margin: -5rem auto 0;}
 .autor {color:#000000;}
 .autor a {color:#000000;}
 }
