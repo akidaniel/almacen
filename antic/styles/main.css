@@ -210,7 +210,10 @@ width:100%;}
 
 
 .topimage {background-position: center center; padding: 0.5rem 0 0; margin-bottom: 1rem;}
-.topimage img {float:right;}
+.topimage img {width: 150px;
+    position: relative;
+    left: -20%;
+    bottom: -3rem;}
 
 
 .dish-2 {text-align: center; margin: 1.5rem auto 0; width:49%; z-index:10;}
