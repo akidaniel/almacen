@@ -1,9 +1,9 @@
 // JavaScript Document
 //FAVICON
 var icons = [
-			"https://akidaniel.github.io/menupetxines/imagenes/favicons/apple-icon-180x180.png",
-                "https://akidaniel.github.io/menupetxines/imagenes/favicons/favicon-32x32.png",
-                "https://akidaniel.github.io/menupetxines/imagenes/favicons/favicon.ico",
+			"https://akidaniel.github.io/almacen/antic/imagenes/favicon/apple-icon-180x180.png",
+                "https://akidaniel.github.io/almacen/antic/imagenes/favicon/favicon-32x32.png",
+                "https://akidaniel.github.io/almacen/antic/imagenes/favicon/favicon.ico",
             ];
 
             var idx = localStorage["favicon"];
