@@ -207,7 +207,7 @@ width:100%;}
     position: relative;
     font-size: 24px;
     font-family: 'Richela Kids Regular';
-    background: #513734;
+    background: rgba(48, 24, 23, 0.7);
     text-align: center;}
 
 .menudevinos, .menudepostres {display:none}
@@ -215,10 +215,10 @@ width:100%;}
 
 
 .topimage {background-position: center center; margin: -5rem auto 0; font-size: 1.5rem; font-family: 'Gothic A1', sans-serif; font-weight: bold; }
-.topimage img {width: 200px;
+.topimage img {width: 210px;
     position: relative;
     float: left;
-    bottom: -3.5rem; }
+    bottom: -3rem; }
 
 
 .dish-2 {text-align: center; margin: 1.5rem auto 0; width:49%; z-index:10;}
@@ -232,7 +232,7 @@ font-size:14px; text-align:center; margin: 10px 3px 0; line-height: 125%;
 }
 .menuitem.plato {font-size:26px; border-bottom: none; line-height: 100%; padding:0; margin: 0 auto -0.40rem;}
 .price {position: relative;
- font-family: 'Lucida Handwriting', sans-serif;
+ font-family: 'Lucida Handwriting', italic;
  font-size: 20px; 
  line-height:150%;
  right:10%;
@@ -261,6 +261,22 @@ float: left;
 margin: 6px 30px 0px 0px;
 }
 
+.bigprice {
+    font-family: 'Lucida Handwriting', italic;
+    font-size: 32px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    padding: 1px 4px;
+    background-color: #F3E2DD;
+    color: #513734;
+    border: 8px solid #513734;
+    line-height: 100%;
+
+}
+.bigprice span {font-size:18px; vertical-align: baseline;
+    line-height: 70%; padding-right: 2px;}
+
 .numeroplato {
     text-align: left;
     display: flex;
@@ -279,6 +295,8 @@ display: flex;
 justify-content: center;
 width:100%;
 position:relative; z-index:10;
+}
+.BOTONERA {top: 0.5rem;
 }
 .cambiocontenido {position: fixed;
     bottom: 0rem;
@@ -373,7 +391,6 @@ a.FINDUS {text-decoration: none;}
 @media only screen and (max-width: 900px) {
 
 .UK, .ES, .FR, .CT {margin: 0 0.5rem; width: 3rem; height:5rem;}
-.BOTONERA {top: 0.5rem;}
 .expandish {min-width: 98%;}
 /**FONDO DE COLOR**/
 .layer {background-color: rgba(134, 65, 56, 0.7);
