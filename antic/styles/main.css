@@ -300,7 +300,7 @@ justify-content: center;
 width:100%;
 position:relative; z-index:10;
 }
-.BOTONERA {top: 0.5rem;
+.BOTONERA {top: 0.5rem; right:-6rem;
 }
 .cambiocontenido {position: fixed;
     bottom: 0rem;
@@ -429,6 +429,9 @@ a.FINDUS {text-decoration: none;}
 
 .autor {color:#000000;}
 .autor a {color:#000000;}
+
+.BOTONERA {right: auto;
+}
 }
 
 @media only screen and (min-width:901px) {
