@@ -35,7 +35,7 @@ padding:0;
 background:url(https://akidaniel.github.io/almacen/antic/imagenes/background.jpg) left top repeat;
 margin:0;}
  
-.wrapper {overflow-x:hidden; position: relative; /*padding: 0 3px; background-image: url(https://akidaniel.github.io/menupetxines/imagenes/zocalo.png); background-origin:border-box; background-repeat:no-repeat; background-position: bottom; background-position-x: left; background-size: contain;*/
+.wrapper {overflow-x:hidden; position: relative;
 }
 
 
@@ -330,10 +330,10 @@ background-size:contain;
 cursor: pointer;
 margin: 0 1rem;
 z-index:222;}
-.UK {background-image: url(https://akidaniel.github.io/menupetxines/imagenes/uk.png);}
-.ES {background-image: url(https://akidaniel.github.io/menupetxines/imagenes/spain.png);}
-.FR {background-image: url(https://akidaniel.github.io/menupetxines/imagenes/france.png);}
-.CT {background-image: url(https://akidaniel.github.io/menupetxines/imagenes/catalan.png);}
+.UK {background-image: url(https://akidaniel.github.io/almacen/antic/imagenes/uk.png);}
+.ES {background-image: url(https://akidaniel.github.io/almacen/antic/imagenes/spain.png);}
+.FR {background-image: url(https://akidaniel.github.io/almacen/antic/imagenes/france.png);}
+.CT {background-image: url(https://akidaniel.github.io/almacen/antic/imagenes/catalan.png);}
 
 .platos, .vinos, .postres {display: block;
 	width: 4.75rem;
